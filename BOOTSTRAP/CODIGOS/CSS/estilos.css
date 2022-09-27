@@ -1,0 +1,45 @@
+
+
+body {
+  display: -webkit-box;
+  display: -ms-block;
+  display: block;
+ 
+}
+
+/* Colores personalizados */
+
+/* Fondo de la seccion folosofia */
+.bg-primary {
+    background-color: #ff401c !important;
+}
+
+/* Color de letra quien soy*/
+.text-primary {
+  --bs-text-opacity: 1;
+  color: #ff401c !important;
+}
+
+/* Color de botones */
+.btn-primary {
+  --bs-btn-color: #fff;  /* Color de letra */
+  --bs-btn-bg: #ff401c;  /* Fondo del boton */
+  --bs-btn-border-color: #f0570c;  /* Color de borde del boton */
+  --bs-btn-hover-color: #fff;  /* Color de sombra al pasar el cursor */
+  --bs-btn-hover-bg: #f0570c;   /* Color de fondo al pasar el cursor */
+  --bs-btn-hover-border-color: #fff;   /* Color de borde al pasar el cursor */
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.card:hover{
+  box-shadow: 0 0 10px #0c0c0c3b; /* Sombra para las card al pasar el cursor sobre ellas*/
+}
+
+/*# sourceMappingURL=estilos.css.map */
